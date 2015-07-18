@@ -3,7 +3,7 @@
     max-width: 960px;
     margin: 20px auto;
     padding: 2em;
-    background: url(../world4.svg) no-repeat fixed;
+    background: url(../world.svg) no-repeat fixed;
     background-size: 100% 100%;
 }
 
@@ -39,15 +39,13 @@ main {
     }
 
 #list div {
-    -moz-column-width: 250px;
-    -webkit-column-width: 250px;
-    column-width: 250px;
+    -moz-columns: 250px;
+    -webkit-columns: 250px;
+    columns: 250px;
 }
 
 #list label {
-    display: inline-block;
-    float: left;
-    clear: both;
+    display: block;
 }
 
 form {

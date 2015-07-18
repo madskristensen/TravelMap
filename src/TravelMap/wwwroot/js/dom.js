@@ -62,7 +62,6 @@
             label.innerHTML += countries[i].countryName;
 
             div.appendChild(label);
-            //label.onclick = saveCheck;
 
             if (check.defaultChecked) {
                 count += 1;
@@ -90,7 +89,7 @@
             }
 
             span.innerHTML = count + "/" + total + "&nbsp;&nbsp;&nbsp;&nbsp;" + Math.ceil(count / total * 100) + "%";
-        }, 100);
+        }, 20);
     }
 
     function saveCheck(input) {

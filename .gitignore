@@ -1,2 +1,7 @@
+# Folders
 .vs
+publishprofiles
+
+# Files
 *.user
+*.pubxml
