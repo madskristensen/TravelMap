@@ -1,0 +1,67 @@
+﻿body {
+    font: 16px/1.5 arial;
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 2em;
+    background: url(../world4.svg) no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+#totals {
+    font-size: 2.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2em;
+    background: linear-gradient(white, transparent);
+
+}
+
+    #totals span:last-child {
+        display: inline-block;
+    }
+
+main {
+}
+
+#list h2 {
+    margin: 1.4em 0 .2em 0;
+    font-size: 1.6em;
+}
+
+    #list h2 span {
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: normal;
+        font-size: .8em;
+    }
+
+#list div {
+    -moz-column-width: 250px;
+    -webkit-column-width: 250px;
+    column-width: 250px;
+}
+
+#list label {
+    display: inline-block;
+    float: left;
+    clear: both;
+}
+
+form {
+    display: block;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+
+    form input {
+        border: none;
+        border-bottom: 1px solid silver;
+        width: 250px;
+    }
+
+    form button {
+        font: 16px/1 arial;
+    }
