@@ -3,8 +3,6 @@
 (function (undefined) {
 
     var elmList = document.getElementById("list"),
-        elmForm = document.getElementsByTagName("form")[0],
-        elmEmail = document.getElementById("email"),
         statsCountries = document.getElementById("countries"),
         statsPercent = document.getElementById("percent"),
         statsTotalCount = document.getElementById("totalcount");
@@ -89,7 +87,7 @@
             }
 
             span.innerHTML = count + "/" + total + "&nbsp;&nbsp;&nbsp;&nbsp;" + Math.ceil(count / total * 100) + "%";
-        }, 20);
+        }, 100);
     }
 
     function saveCheck(input) {
@@ -109,11 +107,6 @@
         statsCountries.innerHTML = visited;
         statsPercent.innerHTML = Math.ceil(visited / totalCount * 100) + "%";
     }
-
-    elmForm.addEventListener("submit", function (e) {
-        e.preventDefault();
-
-    }, false);
 
     document.addEventListener("click", function (e) {
 
